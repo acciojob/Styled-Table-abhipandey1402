@@ -1,1 +1,32 @@
 /* your code */
+table{
+	border-collapse: collapse;
+}
+
+td{
+	padding: 10px;	
+	text-align: center;
+}
+
+.tableData1, .tableData3{
+	background-color: whitesmoke;
+}
+
+.tableHead{
+	background-color: lightgreen;
+	padding: 5px;
+	width: 70px;
+	text-align: center;
+}
+thead th:first-child {
+  border-top-left-radius: 10px;
+}
+thead th:last-child {
+  border-top-right-radius: 10px;
+}
+tbody .tableData3:last-child{
+	border-bottom-right-radius: 10px;
+}
+tbody .tableData3:first-child{
+	border-bottom-left-radius: 10px;
+}
